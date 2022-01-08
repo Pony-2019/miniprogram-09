@@ -10,5 +10,18 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "index"
+      
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "log"
+     
+    }
+  ]
+  }
 }
